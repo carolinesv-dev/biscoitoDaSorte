@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  color: #34355B;
+}
+
+body {
+  background: linear-gradient(45deg, #190361, #bb00ff);
+  animation: gradient 10s ease infinite;
+  background-size: 200% 200%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main {
+  margin-top: -12rem;
+  background-color: white;
+  border-radius: .5rem;
+  width: min(42.8rem, 90%);
+  padding: 6rem 8rem;
+  box-shadow: 0rem 2rem 5rem rgba(0, 0, 0, 8);
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 1.4rem;
+  text-align: center;
+}
+
+.screen1 p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#cookieButton {
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  cursor: pointer;
+  animation: shake 0.5s;
+}
+
+#cookieButton:hover {}
+
+.screen2 p {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 2.4rem;
+  padding: 1rem;
+  width: 27rem;
+  background-color: #E4EDF1;
+  color: black;
+  font-weight: 400;
+  box-shadow: .2rem .2rem .2rem rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+#resetButton {
+  color: white;
+  border: none;
+  text-decoration: none;
+  background-color: #FF9500;
+  padding: 1.6rem;
+  border-radius: .4rem;
+  cursor: pointer;
+}
+
+#resetButton:hover {
+  opacity: 0.9;
+}
+
+/* animação do gradiente*/
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(-4px, 4px);
+  }
+
+  50% {
+    transform: translate(4px, -4px);
+  }
+
+  75% {
+    transform: translate(-4px, -4px);
+  }
+
+  100% {
+    transform: translate(4px, 4px);
+  }
+}
