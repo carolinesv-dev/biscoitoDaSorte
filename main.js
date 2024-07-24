@@ -1,6 +1,6 @@
 const screen1 = document.querySelector(".screen1");
 const screen2 = document.querySelector(".screen2");
-const cookieButton = document.querySelector("#cookieButton");
+const cookieFortune = document.querySelector("#cookieFortune");
 const resetButton = document.querySelector("#resetButton");
 
 const fortune = [
@@ -22,7 +22,7 @@ const fortune = [
 ]
 
 // Eventos
-cookieButton.addEventListener('click', handleClickCookie);
+cookieFortune.addEventListener('click', handleClickCookie);
 resetButton.addEventListener('click', handleClickReset);
 document.addEventListener('keydown', eEnter);
 

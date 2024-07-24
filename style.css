@@ -48,14 +48,14 @@ h2 {
   place-items: center;
 }
 
-#cookieButton {
+#cookieFortune {
   border: none;
   text-decoration: none;
   background-color: white;
   cursor: pointer;
 }
 
-#cookieButton:hover {
+#cookieFortune:hover {
   cursor: pointer;
   opacity: 0.9;
   animation: shake 0.5s ease-in-out;
